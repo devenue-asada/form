@@ -9,6 +9,6 @@ services:
       - .:/app
     environment:
       - WATCHPACK_POLLING=true
-    command: sh -c "npm run dev"
+    command: sh -c "npm i && npm run dev"
     ports:
       - "3010:3000"
